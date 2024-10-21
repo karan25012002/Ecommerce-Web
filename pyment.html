@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Now</title>
+    <style>
+        /* Styling the button */
+        .add-to-cart-button {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .modal.show {
+            display: block;
+        }
+        #qr-code {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <button class="add-to-cart-button" id="buyButton">Buy</button>
+
+    <!-- Modal for payment details -->
+    <div class="modal" id="paymentModal">
+        <h2>Payment Details</h2>
+        <p>Please scan the QR code below to complete the payment:</p>
+        <div id="qr-code"></div>
+        <button id="closeModal">Close</button>
+    </div>
+
+    <!-- Include a QR code library (like QRCode.js) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+    <script>
+        // Get the button and modal elements
+        const buyButton = document.getElementById('buyButton');
+        const paymentModal = document.getElementById('paymentModal');
+        const qrCodeContainer = document.getElementById('qr-code');
+        const closeModal = document.getElementById('closeModal');
+
+        // When the "Buy" button is clicked
+        buyButton.addEventListener('click', function() {
+            // Show the modal
+            paymentModal.classList.add('show');
+
+            // Generate QR code for payment (e.g., a payment URL or transaction ID)
+            const paymentURL = 'https://yourpaymentgateway.com/pay?amount=100';
+            const qrCode = new QRCode(qrCodeContainer, {
+                text: paymentURL,
+                width: 128,
+                height: 128
+            });
+        });
+
+        // Close the modal when the "Close" button is clicked
+        closeModal.addEventListener('click', function() {
+            paymentModal.classList.remove('show');
+            qrCodeContainer.innerHTML = ''; // Clear QR code for next use
+        });
+    </script>
+</body>
+</html>

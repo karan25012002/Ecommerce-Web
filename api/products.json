@@ -1,0 +1,554 @@
+[
+  
+  {
+    "id": 1,
+    "name": "Camera",
+    "category": "Cammera",
+    "brand": "Dell",
+    "price": 899.99,
+    "stock": 30,
+    "description": "Dell Inspiron laptop with Intel Core i7, 16GB RAM, 512GB SSD, and a 15.6-inch FHD display.",
+    "image": "../images/113.png"
+  },
+  {
+    "id": 200,
+    "name": "Smartphone",
+    "category": "Mobiles",
+    "brand": "Samsung",
+    "price": 699.99,
+    "stock": 100,
+    "description": "Samsung Galaxy S21 with a 6.2-inch AMOLED display, 8GB RAM, and 128GB storage.",
+    "image": "../images/iphone.png"
+  },
+  {
+    "id": 300,
+    "name": "Wireless Headphones",
+    "category": "Audio",
+    "brand": "Sony",
+    "price": 199.99,
+    "stock": 50,
+    "description": "Sony WH-1000XM4 noise-canceling wireless headphones with 30-hour battery life.",
+    "image": "./images/wirelessheadphones.jpg"
+  },
+  {
+    "id": 400,
+    "name": "Smartwatch",
+    "category": "Wearables",
+    "brand": "Apple",
+    "price": 399.99,
+    "stock": 40,
+    "description": "Apple Watch Series 7 with GPS, 45mm case, and blood oxygen sensor.",
+    "image": "https://example.com/apple-watch.jpg"
+  },
+  {
+    "id": 500,
+    "name": "Bluetooth Speaker",
+    "category": "Audio",
+    "brand": "JBL",
+    "price": 99.99,
+    "stock": 70,
+    "description": "JBL Flip 5 waterproof Bluetooth speaker with 12 hours of playtime.",
+    "image": "https://example.com/jbl-flip.jpg"
+  },
+  {
+    "id": 600,
+    "name": "Gaming Console",
+    "category": "Gaming",
+    "brand": "Sony",
+    "price": 499.99,
+    "stock": 20,
+    "description": "Sony PlayStation 5 with ultra-high-speed SSD and 4K gaming support.",
+    "image": "https://example.com/ps5.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "category": "Mobiles",
+    "brand": "TechGadget",
+    "price": 499.99,
+    "stock": 100,
+    "image": "../images/iphone.png",
+    "description": "Feature-rich smartphone with a 6.2-inch screen, 12MP dual camera, 128GB storage, and a 4000mAh battery."
+  },
+  {
+    "id": 3,
+    "name": "Wireless Headphones",
+    "category": "Audio",
+    "brand": "SoundBeats",
+    "price": 149.99,
+    "stock": 30,
+    "image": "../images/headphone.png",
+    "description": "High-quality wireless headphones with over-ear design, 20 hours of battery life, and a sleek black color."
+  },
+  {
+    "id": 4,
+    "name": "Watches",
+    "category": "Wearables",
+    "brand": "FitTech",
+    "price": 199.99,
+    "stock": 20,
+    "image": "../images/watch.png",
+    "description": "Smartwatch with a 1.3-inch AMOLED display, water-resistant design, fitness tracking features, and a stylish silver color."
+  },
+  {
+    "id": 5,
+    "name": "Speakers",
+    "category": "Audio",
+    "brand": "SoundBeats",
+    "price": 149.99,
+    "stock": 30,
+    "image": "../images/speakers.png",
+    "description": "High-quality wireless headphones with over-ear design, 20 hours of battery life, and a sleek black color."
+  },
+  {
+    "id": 6,
+    "name": "Television",
+    "category": "Video",
+    "brand": "Samsung",
+    "price": 199.99,
+    "stock": 20,
+    "image": "../images/tv.png",
+    "description": "Smartwatch with a 1.3-inch AMOLED display, water-resistant design, fitness tracking features, and a stylish silver color."
+  },
+  {
+    "id": 7,
+    "name": "Smart TV",
+    "category": "Home Entertainment",
+    "brand": "LG",
+    "price": 799.99,
+    "stock": 25,
+    "description": "LG 55-inch 4K UHD Smart TV with HDR and Alexa built-in.",
+    "image": "https://example.com/lg-smart-tv.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Tablet",
+    "category": "Computers",
+    "brand": "Apple",
+    "price": 329.99,
+    "stock": 60,
+    "description": "Apple iPad 10.2-inch with A13 Bionic chip and 64GB storage.",
+    "image": "https://example.com/apple-ipad.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Fitness Tracker",
+    "category": "Wearables",
+    "brand": "Fitbit",
+    "price": 129.99,
+    "stock": 80,
+    "description": "Fitbit Charge 5 with built-in GPS and heart rate monitoring.",
+    "image": "https://example.com/fitbit-charge.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Camera",
+    "category": "Photography",
+    "brand": "Canon",
+    "price": 599.99,
+    "stock": 35,
+    "description": "Canon EOS Rebel T7 DSLR camera with 18-55mm lens and 24.1MP resolution.",
+    "image": "https://example.com/canon-eos.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Gaming Laptop",
+    "category": "Computers",
+    "brand": "Asus",
+    "price": 1499.99,
+    "stock": 20,
+    "description": "Asus ROG Strix gaming laptop with Intel i9, 32GB RAM, RTX 3080, and 1TB SSD.",
+    "image": "https://example.com/asus-rog.jpg"
+  },
+  {
+    "id": 12,
+    "name": "External Hard Drive",
+    "category": "Storage",
+    "brand": "Seagate",
+    "price": 89.99,
+    "stock": 120,
+    "description": "Seagate 2TB external hard drive with USB 3.0 support.",
+    "image": "https://example.com/seagate-hdd.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Action Camera",
+    "category": "Photography",
+    "brand": "GoPro",
+    "price": 349.99,
+    "stock": 55,
+    "description": "GoPro HERO9 with 5K video recording and HyperSmooth stabilization.",
+    "image": "https://example.com/gopro-hero9.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Smart Thermostat",
+    "category": "Home Appliances",
+    "brand": "Nest",
+    "price": 249.99,
+    "stock": 45,
+    "description": "Nest Learning Thermostat with automatic temperature adjustments and energy-saving features.",
+    "image": "https://example.com/nest-thermostat.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Gaming Mouse",
+    "category": "Peripherals",
+    "brand": "Razer",
+    "price": 59.99,
+    "stock": 150,
+    "description": "Razer DeathAdder V2 gaming mouse with 20K DPI optical sensor.",
+    "image": "https://example.com/razer-deathadder.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Mechanical Keyboard",
+    "category": "Peripherals",
+    "brand": "Logitech",
+    "price": 129.99,
+    "stock": 80,
+    "description": "Logitech G Pro mechanical keyboard with RGB lighting and tactile switches.",
+    "image": "https://example.com/logitech-gpro.jpg"
+  },
+  {
+    "id": 17,
+    "name": "E-Reader",
+    "category": "Tablets",
+    "brand": "Amazon",
+    "price": 139.99,
+    "stock": 90,
+    "description": "Amazon Kindle Paperwhite with a 6.8-inch display and adjustable warm light.",
+    "image": "https://example.com/kindle-paperwhite.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Router",
+    "category": "Networking",
+    "brand": "Netgear",
+    "price": 249.99,
+    "stock": 60,
+    "description": "Netgear Nighthawk AX6 Wi-Fi 6 router with 6Gbps speed and 1,500 sq. ft. coverage.",
+    "image": "https://example.com/netgear-nighthawk.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Electric Toothbrush",
+    "category": "Health",
+    "brand": "Oral-B",
+    "price": 49.99,
+    "stock": 70,
+    "description": "Oral-B Pro 1000 rechargeable electric toothbrush with pressure sensor.",
+    "image": "https://example.com/oralb-pro.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Drone",
+    "category": "Electronics",
+    "brand": "DJI",
+    "price": 999.99,
+    "stock": 15,
+    "description": "DJI Air 2S drone with 5.4K video recording and 1-inch CMOS sensor.",
+    "image": "https://example.com/dji-air2s.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Coffee Maker",
+    "category": "Home Appliances",
+    "brand": "Keurig",
+    "price": 129.99,
+    "stock": 50,
+    "description": "Keurig K-Classic single-serve coffee maker with multiple cup size options.",
+    "image": "https://example.com/keurig-classic.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Microwave Oven",
+    "category": "Home Appliances",
+    "brand": "Panasonic",
+    "price": 199.99,
+    "stock": 35,
+    "description": "Panasonic 1.2 cu. ft. microwave oven with Inverter technology and Genius Sensor.",
+    "image": "https://example.com/panasonic-microwave.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Electric Kettle",
+    "category": "Home Appliances",
+    "brand": "Hamilton Beach",
+    "price": 39.99,
+    "stock": 100,
+    "description": "Hamilton Beach electric kettle with 1.7-liter capacity and auto shutoff.",
+    "image": "https://example.com/hamilton-beach-kettle.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Smart Light Bulb",
+    "category": "Smart Home",
+    "brand": "Philips",
+    "price": 24.99,
+    "stock": 150,
+    "description": "Philips Hue smart light bulb with Bluetooth and voice control.",
+    "image": "https://example.com/philips-hue.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Portable Charger",
+    "category": "Accessories",
+    "brand": "Anker",
+    "price": 49.99,
+    "stock": 200,
+    "description": "Anker PowerCore 10000mAh portable charger with high-speed charging.",
+    "image": "https://example.com/anker-powercore.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Smart Doorbell",
+    "category": "Smart Home",
+    "brand": "Ring",
+    "price": 199.99,
+    "stock": 50,
+    "description": "Ring Video Doorbell 3 with motion detection and 1080p HD video.",
+    "image": "https://m.media-amazon.com/images/I/71u9zvS7B0L._AC_SL1500_.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Air Purifier",
+    "category": "Home Appliances",
+    "brand": "Dyson",
+    "price": 499.99,
+    "stock": 25,
+    "description": "Dyson Pure Cool air purifier with HEPA filter and oscillating fan.",
+    "image": "https://m.media-amazon.com/images/I/71aNwvUrtsL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Instant Camera",
+    "category": "Photography",
+    "brand": "Fujifilm",
+    "price": 69.99,
+    "stock": 60,
+    "description": "Fujifilm Instax Mini 11 instant camera with automatic exposure and selfie mode.",
+    "image": "https://m.media-amazon.com/images/I/81pA0U23l5L._AC_SL1500_.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Gaming Chair",
+    "category": "Furniture",
+    "brand": "Secretlab",
+    "price": 399.99,
+    "stock": 40,
+    "description": "Secretlab Titan Evo 2022 gaming chair with ergonomic support and premium leather.",
+    "image": "https://m.media-amazon.com/images/I/71V9SZK3GtL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Electric Scooter",
+    "category": "Transportation",
+    "brand": "Segway",
+    "price": 499.99,
+    "stock": 30,
+    "description": "Segway Ninebot MAX electric scooter with 40-mile range and 18.6 mph top speed.",
+    "image": "https://m.media-amazon.com/images/I/61YWIsnOtZL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Smart Lock",
+    "category": "Smart Home",
+    "brand": "August",
+    "price": 229.99,
+    "stock": 70,
+    "description": "August Wi-Fi Smart Lock with auto-unlock and remote access features.",
+    "image": "https://m.media-amazon.com/images/I/61S4r3uvUyL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 32,
+    "name": "VR Headset",
+    "category": "Gaming",
+    "brand": "Oculus",
+    "price": 299.99,
+    "stock": 50,
+    "description": "Oculus Quest 2 VR headset with 128GB storage and wireless operation.",
+    "image": "https://m.media-amazon.com/images/I/61kwRNPtMpL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Smart Plug",
+    "category": "Smart Home",
+    "brand": "TP-Link",
+    "price": 24.99,
+    "stock": 150,
+    "description": "TP-Link Kasa smart plug with voice control and energy monitoring.",
+    "image": "https://m.media-amazon.com/images/I/51oCuB9bcyL._AC_SL1000_.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Robot Vacuum",
+    "category": "Home Appliances",
+    "brand": "iRobot",
+    "price": 599.99,
+    "stock": 25,
+    "description": "iRobot Roomba i7+ robot vacuum with automatic dirt disposal and smart mapping.",
+    "image": "https://m.media-amazon.com/images/I/61AhVyx7kvL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Electric Shaver",
+    "category": "Health",
+    "brand": "Philips",
+    "price": 119.99,
+    "stock": 90,
+    "description": "Philips Norelco 9800 electric shaver with SkinIQ technology and wet/dry capability.",
+    "image": "https://m.media-amazon.com/images/I/61vWXJCT78L._AC_SL1500_.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Projector",
+    "category": "Home Entertainment",
+    "brand": "Epson",
+    "price": 699.99,
+    "stock": 15,
+    "description": "Epson Home Cinema 2200 projector with 4K support and 2700 lumens brightness.",
+    "image": "https://m.media-amazon.com/images/I/61fQxe23JgL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Laptop Stand",
+    "category": "Accessories",
+    "brand": "Nulaxy",
+    "price": 29.99,
+    "stock": 120,
+    "description": "Nulaxy ergonomic aluminum laptop stand with adjustable height.",
+    "image": "https://m.media-amazon.com/images/I/61Oq5BuZtgL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 38,
+    "name": "USB-C Hub",
+    "category": "Peripherals",
+    "brand": "Anker",
+    "price": 59.99,
+    "stock": 130,
+    "description": "Anker USB-C hub with HDMI, USB 3.0, Ethernet, and SD card reader.",
+    "image": "https://m.media-amazon.com/images/I/61GHliPeG9L._AC_SL1500_.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Smart Fridge",
+    "category": "Home Appliances",
+    "brand": "Samsung",
+    "price": 2999.99,
+    "stock": 10,
+    "description": "Samsung Family Hub smart fridge with touch screen and Wi-Fi connectivity.",
+    "image": "https://m.media-amazon.com/images/I/71psFwkgJkL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Portable Air Conditioner",
+    "category": "Home Appliances",
+    "brand": "Black+Decker",
+    "price": 399.99,
+    "stock": 30,
+    "description": "Black+Decker portable air conditioner with 12,000 BTU cooling power.",
+    "image": "https://m.media-amazon.com/images/I/71WQ1gsjrBL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Smart Ceiling Fan",
+    "category": "Home Appliances",
+    "brand": "Hunter",
+    "price": 299.99,
+    "stock": 50,
+    "description": "Hunter Symphony smart ceiling fan with integrated Wi-Fi and voice control.",
+    "image": "https://m.media-amazon.com/images/I/51w+3Qv6ZPL._AC_SL1000_.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Electric Bike",
+    "category": "Transportation",
+    "brand": "ANCHEER",
+    "price": 899.99,
+    "stock": 20,
+    "description": "ANCHEER electric mountain bike with 350W motor and 20MPH top speed.",
+    "image": "https://m.media-amazon.com/images/I/71He2ppnJ2L._AC_SL1500_.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Bluetooth Tracker",
+    "category": "Accessories",
+    "brand": "Tile",
+    "price": 34.99,
+    "stock": 100,
+    "description": "Tile Pro Bluetooth tracker with 400 ft range and water resistance.",
+    "image": "https://m.media-amazon.com/images/I/61VtLz+q4pL._AC_SL1000_.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Smart Water Bottle",
+    "category": "Health",
+    "brand": "HidrateSpark",
+    "price": 69.99,
+    "stock": 60,
+    "description": "HidrateSpark PRO smart water bottle with LED sensor to track hydration.",
+    "image": "https://m.media-amazon.com/images/I/71-GleIcFzL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Portable Generator",
+    "category": "Outdoor",
+    "brand": "Honda",
+    "price": 1149.99,
+    "stock": 15,
+    "description": "Honda EU2200i portable inverter generator with 2200W power output.",
+    "image": "https://m.media-amazon.com/images/I/71fzoAXpYaL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Smartwatch",
+    "category": "Wearables",
+    "brand": "Garmin",
+    "price": 349.99,
+    "stock": 70,
+    "description": "Garmin Venu 2 smartwatch with fitness tracking and GPS capabilities.",
+    "image": "https://m.media-amazon.com/images/I/81FwoZDAu8L._AC_SL1500_.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Wireless Earbuds",
+    "category": "Audio",
+    "brand": "Sony",
+    "price": 199.99,
+    "stock": 80,
+    "description": "Sony WF-1000XM4 noise-canceling wireless earbuds with high-resolution audio.",
+    "image": "https://m.media-amazon.com/images/I/71j+gBvH0gL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Smart Scale",
+    "category": "Health",
+    "brand": "Withings",
+    "price": 99.99,
+    "stock": 120,
+    "description": "Withings Body+ smart scale with body composition analysis and Wi-Fi sync.",
+    "image": "https://m.media-amazon.com/images/I/61bWOFNaTqL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Electric Pressure Cooker",
+    "category": "Kitchen",
+    "brand": "Instant Pot",
+    "price": 129.99,
+    "stock": 100,
+    "description": "Instant Pot Duo Nova electric pressure cooker with 7-in-1 functions.",
+    "image": "https://m.media-amazon.com/images/I/61kf8lIDkAL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Mechanical Keyboard",
+    "category": "Peripherals",
+    "brand": "Corsair",
+    "price": 149.99,
+    "stock": 90,
+    "description": "Corsair K95 RGB Platinum mechanical gaming keyboard with Cherry MX switches.",
+    "image": "https://m.media-amazon.com/images/I/81QZCK8J9tL._AC_SL1500_.jpg"
+  }
+  
+]
